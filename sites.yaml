@@ -1,18 +1,8 @@
 sites:
-#  - domain: "www.google.com"
-#    http: false
-#    # urls
-#    # Каждый uri должен начинатся с /
-#    urls:
-#      - uri: "/"
-#        check_text: "Google"
-#      - uri: "/analytics/"
-#        check_text: "Google Analytics"
-
-#  - domain: "www.tinkoff.ru"
-#    http: false
-#    urls:
-#      - uri: "/"
+  - domain: "www.tinkoff.ru"
+    http: false
+    urls:
+      - uri: "/"
 
   - domain: "www.sberbank.ru"
     http: false
