@@ -1,0 +1,70 @@
+sites:
+#  - domain: "www.google.com"
+#    http: false
+#    # urls
+#    # Каждый uri должен начинатся с /
+#    urls:
+#      - uri: "/"
+#        check_text: "Google"
+#      - uri: "/analytics/"
+#        check_text: "Google Analytics"
+
+#  - domain: "www.tinkoff.ru"
+#    http: false
+#    urls:
+#      - uri: "/"
+
+  - domain: "www.sberbank.ru"
+    http: false
+    urls:
+      - uri: "/"
+      - uri: '/ru/person'
+
+  - domain: "promo.sber.ru"
+    http: false
+    urls:
+      - uri: "/sberpay"
+
+  - domain: "www.vtb.ru"
+    http: false
+    urls:
+      - uri: "/"
+
+  - domain: "delo.ru"
+    http: false
+    urls:
+      - uri: "/"
+      - uri: "/atms-offices"
+
+  - domain: "www.psbank.ru"
+    http: false
+    urls:
+      - uri: "/"
+      - uri: "/Personal/Saving"
+
+  - domain: "alfabank.ru"
+    http: false
+    urls:
+      - uri: "/"
+      - uri: "/make-money/"
+
+  - domain: "modulbank.ru"
+    http: false
+    urls:
+      - uri: "/"
+
+  - domain: "get.bistrodengi.ru"
+    http: false
+    urls:
+      - uri: "/"
+
+  - domain: "www.finam.ru"
+    http: false
+    urls:
+      - uri: "/"
+      - uri: "/analysis/reviews/"
+
+  - domain: "sovcombank.ru"
+    http: false
+    urls:
+      - uri: "/"

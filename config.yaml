@@ -1,0 +1,21 @@
+max_parallel_checks: 3
+
+logger:
+  # log level: DEBUG / INFO / ERROR
+  level: 'INFO'
+  log_to_screen: false
+  log_to_file: true
+  # log file template indexes
+  #       0 - log level
+  #       1 - start timestamp
+  #       2 - end timestamp
+  log_file_template: 'dcs_test_log.{0}.{1}.{2}'
+  # log format
+  #
+  log_formate: '%(asctime)s [%(threadName)s] [%(levelname)s]  %(message)s'
+  log_file_path: 'log.txt'
+
+administration:
+  - telegram: 'login'
+
+
