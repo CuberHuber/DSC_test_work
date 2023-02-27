@@ -1,5 +1,3 @@
-max_parallel_checks: 3
-
 logger:
   # log level: DEBUG / INFO / ERROR
   level: 'INFO'
